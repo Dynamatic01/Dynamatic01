@@ -1,3 +1,4 @@
+![logo](https://i.pinimg.com/originals/3d/c9/8e/3dc98e10a8cef3affa7c30e4b79453bc.gif)
 <h1 align="center">Hi 👋, I'm Mohit Mehta</h1>
 <h3 align="center">A passionate Software Engineer developer from India</h3>
 
