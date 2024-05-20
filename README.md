@@ -1,4 +1,4 @@
-![logo]()
+![logo](https://github.com/Dynamatic01/Dynamatic01/blob/main/github-header-image.png)
 <h1 align="center">Hi 👋, I'm Mohit Mehta</h1>
 <h3 align="center">A passionate Software Engineer developer from India</h3>
 
