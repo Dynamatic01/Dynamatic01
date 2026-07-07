@@ -448,7 +448,17 @@ Building real-world analytics projects focused on business intelligence, dashboa
 
 <div align="center">
 
-![](https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-snake-dark.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-snake.svg">
+  <img
+    alt="GitHub Snake Animation"
+    src="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-snake.svg">
+</picture>
 
 </div>
 
