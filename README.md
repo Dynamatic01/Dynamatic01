@@ -448,22 +448,10 @@ Building real-world analytics projects focused on business intelligence, dashboa
 
 <div align="center">
 
-> **Create `.github/workflows/snake.yml` and enable GitHub Actions for this animation.**
 
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-contribution-grid-snake.svg"
-  />
+
+![snake gif](https://github.com/Dynamatic01/Dynamatic01/blob/output/github-snake-dark.svg)
 </picture>
 ```
 
