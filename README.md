@@ -444,18 +444,17 @@ Building real-world analytics projects focused on business intelligence, dashboa
 
 ---
 
-# Contribution Snake
+# 🐍 Contribution Snake
 
 <div align="center">
 
-
-
-
-![snake gif](https://github.com/Dynamatic01/Dynamatic01/blob/output/github-snake-dark.svg)
-</picture>
-```
+![](https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/output/github-contribution-grid-snake-dark.svg)
 
 </div>
+
+---
+
+
 
 ---
 
@@ -489,6 +488,7 @@ Open To:
   - Power BI Developer
   - Data Analytics Internship
   - Freelance Analytics Projects
+```
 ```
 
 ---
