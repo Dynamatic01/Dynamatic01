@@ -365,21 +365,14 @@ Building real-world analytics projects focused on business intelligence, dashboa
 
 <div align="center">
 
-<a href="https://leetcode.com/">
+<a href="[https://leetcode.com//u/Mohit_0010/]">
 <img src="https://img.shields.io/badge/LeetCode-Problem_Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
 </a>
 
-<a href="https://www.hackerrank.com/">
+<a href="[https://www.hackerrank.com/profile/mehtamohit514]">
 <img src="https://img.shields.io/badge/HackerRank-Certifications-00EA64?style=for-the-badge&logo=hackerrank"/>
 </a>
 
-<a href="https://www.geeksforgeeks.org/">
-<img src="https://img.shields.io/badge/GeeksforGeeks-Practice-2F8D46?style=for-the-badge&logo=geeksforgeeks"/>
-</a>
-
-<a href="https://www.codechef.com/">
-<img src="https://img.shields.io/badge/CodeChef-Competitive_Programming-5B4638?style=for-the-badge&logo=codechef"/>
-</a>
 
 </div>
 
@@ -505,7 +498,7 @@ Open To:
 
 # Weekly Development Breakdown
 
-```text
+
 Power BI           ████████████████████   40%
 
 SQL                ███████████████        30%
@@ -571,7 +564,7 @@ Learning           █████                  10%
 <img src="https://img.shields.io/badge/GitHub-Dynamatic01-181717?style=for-the-badge&logo=github"/>
 </a>
 
-<a href="https://www.linkedin.com/in/mohit-mehta-726179307/">
+<a href="[https://www.linkedin.com/in/mohit-mehta-726179307/]">
 <img src="https://img.shields.io/badge/LinkedIn-Mohit%20Mehta-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
@@ -651,7 +644,7 @@ I enjoy building **Data Analytics**, **Business Intelligence**, and **Python Aut
 
 <div align="center">
 
-### Professional Quote
+
 
 > **"Great analytics doesn't just explain the past—it empowers better decisions for the future."**
 
