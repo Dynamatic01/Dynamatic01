@@ -14,45 +14,7 @@
 
 <!-- PROJECTS + LANGUAGE STACK -->
 <div align="center">
-
-<table>
-<tr>
-<td width="50%">
-### `PROJECTS.LIST`
-`~/projects.sh --all` • **2 pinned**
-
-**[▸ indian_tech_jobs_2026](https://github.com/Dynamatic01/indian_tech_jobs_2026)**
-
-`Power BI` `SQL` `Data Analytics`
-
-⭐ **1** • Updated Jul 2026
-</td>
-<td width="50%">
-### `PROJECTS.LIST`
-`~/projects.sh --all` • **2 pinned**
-
-**[▸ Blinkit_sales_data_analysis](https://github.com/Dynamatic01/Blinkit_sales_data_analysis)**
-
-`Power BI` `SQL` `Sales Analytics`
-
-⭐ **1** • Updated Jul 2026
-</td>
-</tr>
-</table>
-
-### `LANGUAGE.STACK`
-`Repository-weighted technologies`
-
-**HTML** `51%` ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-
-**Jupyter Notebook** `19%` ▰▰▰▰▰▰
-
-**JavaScript** `17%` ▰▰▰▰▰
-
-**Python** `12%` ▰▰▰▰
-
-**CSS** `4%` ▰▰
-
+<img src="./assets/projects-language-animated.svg" alt="Animated Projects and Language Stack" width="100%"/>
 </div>
 
 ---
