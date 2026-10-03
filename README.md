@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="Mohit Mehta - Data Analytics GitHub Profile" width="100%"/>
+<img src="profile-hero.svg" alt="Mohit Mehta - Data Analytics GitHub Profile" width="100%"/>
 
-### `DATA ANALYST • CSE STUDENT • BUILDER`
+### `DATA ANALYST • BUILDER`
 
 <a href="https://github.com/Dynamatic01">GitHub</a> •
 <a href="https://www.linkedin.com/in/mohit-mehta-726179307/">LinkedIn</a> •
