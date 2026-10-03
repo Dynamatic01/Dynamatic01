@@ -89,4 +89,96 @@ Interactive grocery-sales dashboard covering KPIs, product categories, outlet pe
 
 **Turning complex data into clear business decisions.**
 
+</div>## `07 / CONNECT`
+
+<div align="center">
+
+### Let's Connect
+
+If you're interested in **Data Analytics, Business Intelligence, collaboration, or internship opportunities**, feel free to reach out.
+
+**[LinkedIn — Connect with me](https://www.linkedin.com/in/mohit-mehta-726179307/)** &nbsp; • &nbsp; **[GitHub — @Dynamatic01](https://github.com/Dynamatic01)**
+
+`DATA → INSIGHT → DECISION`
+
+*Turning complex data into clear business decisions.*
+
+</div>
+
+---
+<div align="center">
+<img src="./assets/about-animated.svg" alt="Animated About section" width="100%"/>
+</div>
+
+---
+
+
+<div align="center">
+<img src="./assets/core-stack-animated.svg" alt="Animated Core Stack" width="100%"/>
+</div>
+
+---
+|---|
+| **Data Analysis** | Python, Pandas, NumPy |
+| **Databases** | MySQL, SQL |
+| **BI & Visualization** | Power BI, DAX, Power Query |
+| **Spreadsheet Analytics** | Microsoft Excel, Pivot Tables, XLOOKUP/VLOOKUP |
+| **Workflow** | Git, GitHub, Jupyter Notebook |
+
+---
+
+## `03 / FEATURED PROJECTS`
+
+### 📊 Indian Tech Jobs — 2026
+**Power BI • DAX • Power Query • SQL • Data Modeling**
+
+Interactive analysis of the Indian technology job market covering salary, skills, companies, experience, work mode, and hiring locations.
+
+**Dashboard areas:** Overview · Salary · Skills · Company · Location
+
+→ [View repository](https://github.com/Dynamatic01/indian_tech_jobs_2026)
+
+### 🛒 Blinkit Sales Data Analysis
+**Power BI • SQL • DAX • Power Query**
+
+Interactive grocery-sales dashboard covering KPIs, product categories, outlet performance, location, outlet type, and sales trends.
+
+→ [View repository](https://github.com/Dynamatic01/Blinkit_sales_data_analysis)
+
+---
+
+<div align="center">
+<img src="./assets/what-i-do-animated.svg" alt="Animated What I Do section" width="100%"/>
+</div>
+
+---
+
+
+<div align="center">
+<img src="./assets/currently-learning-animated.svg" alt="Animated Currently Learning section" width="100%"/>
+</div>
+
+---
+
+
+<div align="center">
+<img src="./assets/github-stats-animated.svg" alt="Animated GitHub Stats and Most Used Languages" width="100%"/>
+</div>
+
+---
+
+
+<div align="center">
+<img src="./assets/connect-animated.svg" alt="Animated Connect section" width="100%"/>
+</div>
+
+---
+
+
+<div align="center">
+
+`DATA → INSIGHT → DECISION`
+
+**Turning complex data into clear business decisions.**
+
 </div>
