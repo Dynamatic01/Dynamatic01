@@ -14,17 +14,12 @@
 </div>
 
 ---
-## `01 / ABOUT`
-
-Hi, I'm **Mohit Mehta**, a Computer Science Engineering student focused on **Data Analytics and Business Intelligence**.
-
-I work with data from collection and cleaning through SQL analysis, transformation, visualization, and dashboard storytelling.
-
-`Python` `SQL` `Excel` `Power BI` `MySQL` `Pandas` `DAX` `Power Query`
-
-I'm currently building practical analytics projects and strengthening my skills for **Data Analyst / BI internship opportunities**.
+<div align="center">
+<img src="./assets/about-animated.svg" alt="Animated About section" width="100%"/>
+</div>
 
 ---
+
 
 ## `02 / CORE STACK`
 
