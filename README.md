@@ -62,18 +62,12 @@ Interactive grocery-sales dashboard covering KPIs, product categories, outlet pe
 ---
 
 
-## `05 / CURRENTLY LEARNING`
-
-```text
-Advanced SQL
-Advanced Power BI & DAX
-Python for Data Analytics
-Data Engineering Fundamentals
-Machine Learning Fundamentals
-Microsoft Fabric / Azure Data Services
-```
+<div align="center">
+<img src="./assets/currently-learning-animated.svg" alt="Animated Currently Learning section" width="100%"/>
+</div>
 
 ---
+
 
 ## `06 / GITHUB`
 
