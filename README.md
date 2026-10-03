@@ -76,14 +76,12 @@ Interactive grocery-sales dashboard covering KPIs, product categories, outlet pe
 ---
 
 
-## `07 / CONNECT`
-
-<p align="center">
-<a href="https://www.linkedin.com/in/mohit-mehta-726179307/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/Dynamatic01"><img src="https://img.shields.io/badge/GitHub-Dynamatic01-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
+<div align="center">
+<img src="./assets/connect-animated.svg" alt="Animated Connect section" width="100%"/>
+</div>
 
 ---
+
 
 <div align="center">
 
