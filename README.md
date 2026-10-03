@@ -21,10 +21,12 @@
 ---
 
 
-## `02 / CORE STACK`
+<div align="center">
+<img src="./assets/core-stack-animated.svg" alt="Animated Core Stack" width="100%"/>
+</div>
 
-| Area | Tools |
-|---|---|
+---
+|---|
 | **Data Analysis** | Python, Pandas, NumPy |
 | **Databases** | MySQL, SQL |
 | **BI & Visualization** | Power BI, DAX, Power Query |
