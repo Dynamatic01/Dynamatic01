@@ -1,53 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="285" viewBox="0 0 1100 285">
 <defs>
 <style>
-.bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.card{fill:#040a06;stroke:#155d2c}.g{fill:#35ff73}.w{fill:#d9f6df}.d{fill:#6fa77f}.s{font:12px monospace}.m{font:16px monospace}.h{font:bold 24px monospace}
-@keyframes scan{0%{transform:translateY(0);opacity:.05}50%{opacity:.6}100%{transform:translateY(400px);opacity:.05}}
-@keyframes pulse{50%{opacity:.25}}
-@keyframes blink{50%{opacity:.1}}
-@keyframes grow1{from{width:40px}to{width:270px}} @keyframes grow2{from{width:40px}to{width:101px}} @keyframes grow3{from{width:40px}to{width:90px}} @keyframes grow4{from{width:40px}to{width:64px}} @keyframes grow5{from{width:40px}to{width:28px}}
-@keyframes card{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
-.scan{animation:scan 4s linear infinite}.pulse{animation:pulse 2s ease-in-out infinite}.blink{animation:blink 1s steps(2,end) infinite}.c1{animation:card 3s ease-in-out infinite}.c2{animation:card 3s .7s ease-in-out infinite}
-.b1{animation:grow1 2s ease-in-out infinite alternate}.b2{animation:grow2 2.2s ease-in-out infinite alternate}.b3{animation:grow3 2.4s ease-in-out infinite alternate}.b4{animation:grow4 2.6s ease-in-out infinite alternate}.b5{animation:grow5 2.8s ease-in-out infinite alternate}
+.bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.card{fill:#040a06;stroke:#155d2c}.g{fill:#35ff73}.w{fill:#d9f6df}.d{fill:#6fa77f}.s{font:12px monospace}.m{font:16px monospace}
+@keyframes scan{0%{transform:translateY(0);opacity:.05}50%{opacity:.55}100%{transform:translateY(185px);opacity:.05}}
+@keyframes float1{50%{transform:translateY(-3px)}}@keyframes float2{50%{transform:translateY(3px)}}@keyframes blink{50%{opacity:.1}}
+.scan{animation:scan 3.8s linear infinite}.c1{animation:float1 3s ease-in-out infinite}.c2{animation:float2 3s .5s ease-in-out infinite}.blink{animation:blink 1s steps(2,end) infinite}
 </style>
 <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0e2a17"/></pattern>
-<filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
-<radialGradient id="halo"><stop stop-color="#16ff62" stop-opacity=".2"/><stop offset="1" stop-color="#16ff62" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo"><stop stop-color="#16ff62" stop-opacity=".14"/><stop offset="1" stop-color="#16ff62" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<rect width="1100" height="470" rx="20" class="bg"/><rect x="18" y="18" width="1064" height="434" rx="16" fill="url(#grid)"/>
-<ellipse cx="800" cy="250" rx="300" ry="210" fill="url(#halo)" filter="url(#glow)" class="pulse"/>
-<rect x="28" y="28" width="1044" height="42" rx="8" fill="#09140d" stroke="#173d22"/>
-<circle cx="49" cy="49" r="6" fill="#ff5757"/><circle cx="69" cy="49" r="6" fill="#ffd25a"/><circle cx="89" cy="49" r="6" fill="#35ff73"/>
-<text x="112" y="54" class="s d">PROJECTS.md — Dynamatic01</text><text x="1015" y="54" text-anchor="end" class="s g">● LIVE</text>
+<rect width="1100" height="285" rx="20" class="bg"/>
+<rect x="18" y="18" width="1064" height="249" rx="16" fill="url(#grid)"/>
+<ellipse cx="760" cy="150" rx="350" ry="150" fill="url(#halo)" filter="url(#blur)"/>
+<rect x="28" y="28" width="1044" height="230" rx="10" class="panel"/>
 
-<rect x="28" y="86" width="1044" height="190" rx="10" class="panel"/>
-<text x="55" y="116" class="s g">PROJECTS.LIST</text><text x="230" y="116" class="s d">~/projects.sh --all</text><text x="1038" y="116" text-anchor="end" class="s d">2 pinned</text>
-<line x1="55" y1="130" x2="1045" y2="130" stroke="#155d2c"/>
+<rect x="40" y="40" width="1020" height="35" rx="7" fill="#09140d" stroke="#173d22"/>
+<circle cx="57" cy="57" r="5" fill="#ff5757"/><circle cx="74" cy="57" r="5" fill="#ffd25a"/><circle cx="91" cy="57" r="5" fill="#35ff73"/>
+<text x="108" y="61" class="s d">PROJECTS.md — Dynamatic01</text><text x="1038" y="61" text-anchor="end" class="s g">● LIVE</text>
 
-<g class="c1"><rect x="55" y="150" width="475" height="105" rx="10" class="card"/>
-<circle cx="77" cy="172" r="4" class="g"/><text x="92" y="176" class="s g">indian_tech_jobs_2026</text>
-<text x="72" y="207" class="m g">indian_tech_jobs_2026</text>
-<text x="72" y="229" class="s d">Power BI • SQL • Data Analytics</text>
-<text x="72" y="248" class="s g">★ 1</text></g>
+<text x="58" y="101" class="s g">PROJECTS.LIST</text>
+<text x="225" y="101" class="s d">~/projects.sh --all</text>
+<text x="1038" y="101" text-anchor="end" class="s d">2 pinned</text>
+<line x1="55" y1="112" x2="1045" y2="112" stroke="#155d2c"/>
 
-<g class="c2"><rect x="570" y="150" width="475" height="105" rx="10" class="card"/>
-<circle cx="592" cy="172" r="4" class="g"/><text x="607" y="176" class="s g">Blinkit_sales_data_analysis</text>
-<text x="587" y="207" class="m g">Blinkit_sales_data_analysis</text>
-<text x="587" y="229" class="s d">Power BI • SQL • Sales Analytics</text>
-<text x="587" y="248" class="s g">★ 1</text></g>
-
-<rect x="28" y="294" width="1044" height="145" rx="10" class="panel"/>
-<text x="55" y="324" class="h g">Language Stack</text><text x="55" y="344" class="s d">Repository-weighted technologies</text><text x="1038" y="344" text-anchor="end" class="s g">&gt; stack.scan</text>
-<line x1="55" y1="355" x2="1045" y2="355" stroke="#155d2c"/>
-<g class="s w">
-<text x="55" y="376">HTML</text><text x="270" y="376" class="g">51%</text><text x="55" y="397">Jupyter Notebook</text><text x="270" y="397" fill="#f37626">19%</text><text x="55" y="418">JavaScript</text><text x="270" y="418" fill="#f1e05a">17%</text><text x="555" y="376">Python</text><text x="730" y="376" fill="#3572A5">12%</text><text x="555" y="397">CSS</text><text x="730" y="397" fill="#89569c">4%</text>
+<g class="c1">
+<rect x="55" y="126" width="475" height="105" rx="10" class="card"/>
+<circle cx="76" cy="147" r="4" class="g"/>
+<text x="91" y="151" class="s g">indian_tech_jobs_2026</text>
+<text x="72" y="178" class="m g">indian_tech_jobs_2026</text>
+<text x="72" y="199" class="s d">Power BI • SQL • Data Analytics</text>
+<text x="72" y="219" class="s g">★ 1</text>
 </g>
-<g fill="#173022">
-<rect x="310" y="367" width="200" height="8" rx="4"/><rect x="310" y="388" width="200" height="8" rx="4"/><rect x="310" y="409" width="200" height="8" rx="4"/><rect x="770" y="367" width="200" height="8" rx="4"/><rect x="770" y="388" width="200" height="8" rx="4"/>
+
+<g class="c2">
+<rect x="570" y="126" width="475" height="105" rx="10" class="card"/>
+<circle cx="591" cy="147" r="4" class="g"/>
+<text x="606" y="151" class="s g">Blinkit_sales_data_analysis</text>
+<text x="587" y="178" class="m g">Blinkit_sales_data_analysis</text>
+<text x="587" y="199" class="s d">Power BI • SQL • Sales Analytics</text>
+<text x="587" y="219" class="s g">★ 1</text>
 </g>
-<g>
-<rect x="310" y="367" width="40" height="8" rx="4" fill="#e34c26" class="b1"/><rect x="310" y="388" width="40" height="8" rx="4" fill="#f37626" class="b2"/><rect x="310" y="409" width="40" height="8" rx="4" fill="#f1e05a" class="b3"/><rect x="770" y="367" width="40" height="8" rx="4" fill="#3572A5" class="b4"/><rect x="770" y="388" width="40" height="8" rx="4" fill="#89569c" class="b5"/>
-</g>
-<rect x="35" y="136" width="1030" height="3" fill="#35ff73" class="scan"/>
-<text x="55" y="428" class="s d">root@dynamatic01:~$ <tspan class="g">stack --animate</tspan><tspan class="blink"> █</tspan></text>
+
+<rect x="35" y="118" width="1030" height="2" fill="#35ff73" class="scan"/>
+<text x="58" y="249" class="s d">root@dynamatic01:~$ projects --animate <tspan class="g">✓</tspan><tspan class="blink"> █</tspan></text>
+<text x="1038" y="249" text-anchor="end" class="s d">DYNAMATIC01 // 2026</text>
 </svg>
