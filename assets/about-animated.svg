@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="285" viewBox="0 0 1100 285">
+<defs>
+<style>
+.bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.g{fill:#35ff73}.w{fill:#d9f6df}.d{fill:#6fa77f}.s{font:12px monospace}.h{font:bold 24px monospace}
+@keyframes scan{0%{transform:translateY(0);opacity:.04}50%{opacity:.55}100%{transform:translateY(230px);opacity:.04}}
+@keyframes blink{50%{opacity:.1}}@keyframes pulse{50%{opacity:.3}}
+.scan{animation:scan 4s linear infinite}.blink{animation:blink 1s steps(2,end) infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}
+</style>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0e2a17"/></pattern>
+<radialGradient id="halo"><stop stop-color="#16ff62" stop-opacity=".16"/><stop offset="1" stop-color="#16ff62" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1100" height="285" rx="20" class="bg"/><rect x="18" y="18" width="1064" height="249" rx="16" fill="url(#grid)"/>
+<ellipse cx="850" cy="145" rx="330" ry="150" fill="url(#halo)" filter="url(#blur)" class="pulse"/>
+<rect x="28" y="28" width="1044" height="229" rx="10" class="panel"/>
+<text x="55" y="62" class="h g">01 / ABOUT</text><text x="1015" y="62" text-anchor="end" class="s g">&gt; about.scan</text>
+<line x1="55" y1="76" x2="1045" y2="76" stroke="#155d2c"/>
+<text x="55" y="105" class="s g">Hi, I'm <tspan class="w">Mohit Mehta</tspan>, a Computer Science Engineering student focused on</text>
+<text x="55" y="126" class="s g">Data Analytics and Business Intelligence.</text>
+<text x="55" y="158" class="s d">I work with data from collection and cleaning through SQL analysis, transformation,</text>
+<text x="55" y="179" class="s d">visualization, and dashboard storytelling.</text>
+<text x="55" y="211" class="s w">Python</text><text x="120" y="211" class="s g">•</text><text x="135" y="211" class="s w">SQL</text><text x="175" y="211" class="s g">•</text><text x="190" y="211" class="s w">Excel</text><text x="245" y="211" class="s g">•</text><text x="260" y="211" class="s w">Power BI</text><text x="335" y="211" class="s g">•</text><text x="350" y="211" class="s w">MySQL</text><text x="410" y="211" class="s g">•</text><text x="425" y="211" class="s w">Pandas</text><text x="490" y="211" class="s g">•</text><text x="505" y="211" class="s w">DAX</text><text x="550" y="211" class="s g">•</text><text x="565" y="211" class="s w">Power Query</text>
+<text x="55" y="239" class="s d">Currently building practical analytics projects and strengthening my skills for</text><text x="650" y="239" class="s g"> Data Analyst / BI internship opportunities.</text>
+<rect x="48" y="86" width="1010" height="2" fill="#35ff73" class="scan"/>
+<text x="1015" y="239" text-anchor="end" class="s d"><tspan class="blink">█</tspan></text>
+</svg>
