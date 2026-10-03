@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+<title id="title">Dynamatic01 animated GitHub profile</title>
+<desc id="desc">Animated neon green terminal style profile card for Mohit, a data analytics focused computer science student.</desc>
+<style>
+  .bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.dim{fill:#6fa77f}.green{fill:#35ff73}.white{fill:#d9f6df}.line{stroke:#1cff62;fill:none}.small{font:12px monospace}.med{font:16px monospace}.big{font:bold 34px monospace}.blink{animation:blink 1s steps(2,end) infinite}.scan{animation:scan 3.5s linear infinite}.pulse{animation:pulse 2.2s ease-in-out infinite}.float{animation:float 4s ease-in-out infinite}@keyframes blink{50%{opacity:.15}}@keyframes scan{0%{transform:translateY(0);opacity:.15}50%{opacity:.9}100%{transform:translateY(300px);opacity:.15}}@keyframes pulse{50%{opacity:.35}}@keyframes float{50%{transform:translateY(-5px)}} 
+</style>
+<defs>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0e2a17" stroke-width="1"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+ <radialGradient id="halo"><stop offset="0" stop-color="#16ff62" stop-opacity=".18"/><stop offset="1" stop-color="#16ff62" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1100" height="560" rx="20" class="bg"/>
+<rect x="18" y="18" width="1064" height="524" rx="16" fill="url(#grid)" opacity=".8"/>
+<ellipse cx="850" cy="260" rx="240" ry="220" fill="url(#halo)" filter="url(#glow)" class="pulse"/>
+
+<rect x="28" y="30" width="1044" height="42" rx="8" fill="#09140d" stroke="#173d22"/>
+<circle cx="49" cy="51" r="6" fill="#ff5757"/><circle cx="69" cy="51" r="6" fill="#ffd25a"/><circle cx="89" cy="51" r="6" fill="#35ff73"/>
+<text x="112" y="56" class="small dim">README.md — Dynamatic01 / Preview</text>
+<text x="1015" y="56" class="small green">● LIVE</text>
+
+<rect x="28" y="88" width="1044" height="145" rx="10" class="panel"/>
+<g class="float">
+ <circle cx="103" cy="158" r="52" fill="#0b1b10" stroke="#35ff73" stroke-width="2"/>
+ <circle cx="103" cy="158" r="44" fill="none" stroke="#145d2d" stroke-dasharray="3 5"/>
+ <text x="103" y="151" text-anchor="middle" class="small green">DATA</text>
+ <text x="103" y="169" text-anchor="middle" class="small green">ANALYST</text>
+</g>
+<text x="178" y="133" class="small green">@dynamatic01</text>
+<text x="178" y="170" class="big green">Mohit</text>
+<text x="180" y="197" class="small white">Computer Science Engineering Student</text>
+<text x="820" y="133" class="small dim">TOTAL STARS</text>
+<text x="820" y="174" class="big green">11</text>
+<text x="820" y="199" class="small dim">20 REPOSITORIES</text>
+<text x="952" y="199" class="small dim">2 FOLLOWERS</text>
+
+<rect x="28" y="249" width="1044" height="250" rx="10" class="panel"/>
+<rect x="38" y="260" width="1024" height="25" rx="5" fill="#091b0f" stroke="#155d2c"/>
+<text x="50" y="278" class="small green">$ profile --status</text><text x="1010" y="278" class="small green" text-anchor="end">BUILDING</text>
+
+<rect x="42" y="296" width="480" height="188" rx="7" fill="#040a06" stroke="#155d2c"/>
+<text x="58" y="319" class="small green">SYSTEM.INFO</text>
+<text x="58" y="346" class="small dim">name</text><text x="190" y="346" class="small white">Mohit Mehta</text>
+<text x="58" y="369" class="small dim">focus</text><text x="190" y="369" class="small white">Data Analytics</text>
+<text x="58" y="392" class="small dim">tools</text><text x="190" y="392" class="small white">SQL / Power BI</text>
+<text x="58" y="415" class="small dim">stack</text><text x="190" y="415" class="small white">Python / Excel</text>
+<text x="58" y="438" class="small dim">location</text><text x="190" y="438" class="small white">New Delhi</text>
+<text x="58" y="461" class="small dim">repos</text><text x="190" y="461" class="small white">Dynamatic01</text>
+<text x="58" y="479" class="small green">root@dynamatic01:~$ <tspan class="blink">█</tspan></text>
+
+<rect x="538" y="296" width="524" height="188" rx="7" fill="#040a06" stroke="#155d2c"/>
+<text x="555" y="319" class="small green">SKILLS.PROGRESS</text>
+<g class="small white">
+ <text x="555" y="350">Power BI</text><text x="555" y="382">SQL</text><text x="555" y="414">Python</text><text x="555" y="446">Excel</text>
+</g>
+<g fill="#0c2915" stroke="#155d2c">
+ <rect x="640" y="340" width="380" height="12" rx="6"/><rect x="640" y="372" width="380" height="12" rx="6"/><rect x="640" y="404" width="380" height="12" rx="6"/><rect x="640" y="436" width="380" height="12" rx="6"/>
+</g>
+<g fill="#19d957">
+ <rect x="640" y="340" width="342" height="12" rx="6"/><rect x="640" y="372" width="342" height="12" rx="6"/><rect x="640" y="404" width="323" height="12" rx="6"/><rect x="640" y="436" width="342" height="12" rx="6"/>
+</g>
+
+<rect x="38" y="288" width="1024" height="3" fill="#35ff73" opacity=".55" class="scan"/>
+<text x="40" y="526" class="small dim">DATA → INSIGHT → DECISION</text>
+<text x="1060" y="526" text-anchor="end" class="small dim">DYNAMATIC01 // 2026</text>
+</svg>
