@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300">
+<defs><style>
+.bg{fill:#080c12}.panel{fill:#0b1017;stroke:#303945;stroke-width:1.2}.btn{fill:#202833;stroke:#3b4652}.li{fill:#1683d8}.gh{fill:#30343a}.g{fill:#8ee7a3}.w{fill:#e8edf2}.d{fill:#9aa3ad}.cyan{fill:#69d5ff}.s{font:14px Arial,sans-serif}.b{font:bold 15px Arial,sans-serif}.h{font:bold 19px Arial,sans-serif}
+@keyframes scan{0%{transform:translateY(0);opacity:.02}50%{opacity:.35}100%{transform:translateY(250px);opacity:.02}}@keyframes pulse{50%{opacity:.35}}@keyframes glow{50%{filter:drop-shadow(0 0 7px #1683d8)}}@keyframes glowg{50%{filter:drop-shadow(0 0 7px #35ff73)}}@keyframes blink{50%{opacity:.1}}@keyframes up{50%{transform:translateY(-2px)}}
+.scan{animation:scan 5s linear infinite}.halo{animation:pulse 2.8s ease-in-out infinite}.linkedin{animation:glow 2.2s ease-in-out infinite}.github{animation:glowg 2.4s ease-in-out infinite}.blink{animation:blink 1s steps(2,end) infinite}.tag{animation:up 2.5s ease-in-out infinite}
+</style><radialGradient id="halo"><stop stop-color="#35ff73" stop-opacity=".1"/><stop offset="1" stop-color="#35ff73" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="14"/></filter></defs>
+<rect width="1100" height="300" rx="14" class="bg"/>
+<rect x="20" y="18" width="1060" height="264" rx="8" class="panel"/>
+<ellipse cx="550" cy="175" rx="430" ry="110" fill="url(#halo)" filter="url(#blur)" class="halo"/>
+<text x="50" y="55" class="h w">07 / CONNECT</text><text x="1045" y="55" text-anchor="end" class="b d">&gt; connect --open</text>
+<line x1="50" y1="72" x2="1050" y2="72" stroke="#303945"/>
+
+<a href="https://www.linkedin.com/in/mohit-mehta-726179307/"><g class="linkedin">
+<rect x="385" y="92" width="160" height="42" rx="4" class="li"/>
+<text x="400" y="118" class="b w">LINKEDIN</text><text x="470" y="118" class="b w">CONNECT</text>
+</g></a>
+<a href="https://github.com/Dynamatic01"><g class="github">
+<rect x="555" y="92" width="160" height="42" rx="4" class="gh"/>
+<text x="570" y="118" class="b w">◉ GITHUB</text><text x="635" y="118" class="b w">DYNAMATIC01</text>
+</g></a>
+
+<line x1="50" y1="164" x2="1050" y2="164" stroke="#303945"/>
+<g class="tag"><rect x="445" y="188" width="210" height="28" rx="14" fill="#0d1b24" stroke="#1e4858"/>
+<text x="550" y="207" text-anchor="middle" class="s cyan">DATA → INSIGHT → DECISION</text></g>
+<text x="550" y="250" text-anchor="middle" class="b w">Turning complex data into clear business decisions.</text>
+<text x="550" y="272" text-anchor="middle" class="s d">root@dynamatic01:~$ connect <tspan class="g">--ready</tspan><tspan class="blink"> █</tspan></text>
+<rect x="45" y="80" width="1010" height="2" fill="#35ff73" class="scan"/>
+</svg>
