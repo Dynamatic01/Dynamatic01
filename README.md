@@ -2,15 +2,11 @@
 
 <img src="./assets/dynamatic01-profile.svg" alt="Mohit Mehta - Animated Data Analytics GitHub Profile" width="100%"/>
 
-### `DATA ANALYST • BUILDER`
 
-<a href="https://github.com/Dynamatic01">GitHub</a> •
-<a href="https://www.linkedin.com/in/mohit-mehta-726179307/">LinkedIn</a> •
-<a href="https://github.com/Dynamatic01?tab=repositories">Projects</a>
 
 </div>
 
----
+
 
 <!-- PROJECTS + LANGUAGE STACK -->
 <div align="center">
