@@ -69,14 +69,12 @@ Interactive grocery-sales dashboard covering KPIs, product categories, outlet pe
 ---
 
 
-## `06 / GITHUB`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dynamatic01&show_icons=true&hide_border=true&theme=transparent&title_color=ff6849&icon_color=ff6849&text_color=c9d1d9" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dynamatic01&layout=compact&hide_border=true&theme=transparent&title_color=ff6849&text_color=c9d1d9" height="165"/>
-</p>
+<div align="center">
+<img src="./assets/github-stats-animated.svg" alt="Animated GitHub Stats and Most Used Languages" width="100%"/>
+</div>
 
 ---
+
 
 ## `07 / CONNECT`
 
