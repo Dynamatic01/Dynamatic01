@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="410" viewBox="0 0 1100 410">
+<defs><style>
+.bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.row{fill:#040a06;stroke:#155d2c}.g{fill:#35ff73}.w{fill:#e5f9e9}.d{fill:#83ae8e}.s{font:17px monospace}.h{font:bold 30px monospace}.label{font:bold 16px monospace}
+@keyframes scan{0%{transform:translateY(0);opacity:.03}50%{opacity:.5}100%{transform:translateY(350px);opacity:.03}}
+@keyframes slide{from{opacity:.2;transform:translateX(-12px)}to{opacity:1;transform:translateX(0)}}@keyframes blink{50%{opacity:.1}}@keyframes pulse{50%{opacity:.25}}
+.scan{animation:scan 5s linear infinite}.r1{animation:slide .6s ease-out}.r2{animation:slide .8s ease-out}.r3{animation:slide 1s ease-out}.r4{animation:slide 1.2s ease-out}.r5{animation:slide 1.4s ease-out}.r6{animation:slide 1.6s ease-out}.blink{animation:blink 1s steps(2,end) infinite}.pulse{animation:pulse 2.8s ease-in-out infinite}
+</style><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#0e2a17"/></pattern><radialGradient id="halo"><stop stop-color="#16ff62" stop-opacity=".15"/><stop offset="1" stop-color="#16ff62" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="15"/></filter></defs>
+<rect width="1100" height="410" rx="22" class="bg"/><rect x="18" y="18" width="1064" height="374" rx="18" fill="url(#grid)"/><ellipse cx="850" cy="205" rx="360" ry="220" fill="url(#halo)" filter="url(#blur)" class="pulse"/>
+<rect x="28" y="28" width="1044" height="354" rx="12" class="panel"/>
+<text x="58" y="72" class="h g">04 / CURRENTLY LEARNING</text><text x="1040" y="72" text-anchor="end" class="label g">&gt; learning.run</text><line x1="55" y1="91" x2="1045" y2="91" stroke="#155d2c" stroke-width="2"/>
+<g class="r1"><rect x="50" y="108" width="1000" height="38" rx="7" class="row"/><text x="72" y="134" class="label g">01</text><text x="125" y="134" class="s w">Advanced SQL</text><text x="900" y="134" class="s d">QUERY</text></g>
+<g class="r2"><rect x="50" y="153" width="1000" height="38" rx="7" class="row"/><text x="72" y="179" class="label g">02</text><text x="125" y="179" class="s w">Advanced Power BI &amp; DAX</text><text x="900" y="179" class="s d">BI / DAX</text></g>
+<g class="r3"><rect x="50" y="198" width="1000" height="38" rx="7" class="row"/><text x="72" y="224" class="label g">03</text><text x="125" y="224" class="s w">Python for Data Analytics</text><text x="900" y="224" class="s d">PYTHON</text></g>
+<g class="r4"><rect x="50" y="243" width="1000" height="38" rx="7" class="row"/><text x="72" y="269" class="label g">04</text><text x="125" y="269" class="s w">Data Engineering Fundamentals</text><text x="900" y="269" class="s d">DATA ENG</text></g>
+<g class="r5"><rect x="50" y="288" width="1000" height="38" rx="7" class="row"/><text x="72" y="314" class="label g">05</text><text x="125" y="314" class="s w">Machine Learning Fundamentals</text><text x="900" y="314" class="s d">ML</text></g>
+<g class="r6"><rect x="50" y="333" width="1000" height="38" rx="7" class="row"/><text x="72" y="359" class="label g">06</text><text x="125" y="359" class="s w">Microsoft Fabric / Azure Data Services</text><text x="900" y="359" class="s d">CLOUD</text></g>
+<rect x="45" y="98" width="1010" height="3" fill="#35ff73" class="scan"/><text x="58" y="400" class="s d">root@dynamatic01:~$ learning --execute <tspan class="blink g">█</tspan></text>
+</svg>
