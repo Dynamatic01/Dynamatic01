@@ -55,16 +55,12 @@ Interactive grocery-sales dashboard covering KPIs, product categories, outlet pe
 
 ---
 
-## `04 / WHAT I DO`
-
-- 🧹 Clean and transform messy datasets
-- 🗄️ Write SQL queries for business questions
-- 📊 Build interactive Power BI dashboards
-- 📈 Create KPI and trend analysis
-- 🐍 Perform exploratory data analysis with Python
-- 🔎 Turn raw data into understandable insights
+<div align="center">
+<img src="./assets/what-i-do-animated.svg" alt="Animated What I Do section" width="100%"/>
+</div>
 
 ---
+
 
 ## `05 / CURRENTLY LEARNING`
 
