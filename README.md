@@ -1,5 +1,11 @@
 <div align="center">
-<img src="./assets/contributions-live.svg" alt="Live GitHub Contribution Activity" width="100%"/>
+
+## 06 / GITHUB ACTIVITY
+
+<img src="https://ghchart.rshah.org/16a34a/Dynamatic01" alt="Dynamatic01 GitHub contribution activity" width="100%"/>
+
+<sub>LIVE CONTRIBUTION DATA • DYNAMATIC01 • AUTO-REFRESHED FROM GITHUB ACTIVITY</sub>
+
 </div>
 
 ---
