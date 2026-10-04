@@ -1,14 +1,6 @@
-<div align="center">
 
-## 06 / GITHUB ACTIVITY
 
-<img src="./assets/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution activity" width="100%"/>
 
-<sub>LIVE GITHUB CONTRIBUTIONS • UPDATED DAILY</sub>
-
-</div>
-
----
 
 <div align="center">
 
@@ -60,6 +52,13 @@
 </div>
 
 ---
+
+<div align="center">
+<img src="./assets/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution activity" width="100%"/>
+
+<sub>LIVE GITHUB CONTRIBUTIONS • UPDATED DAILY</sub>
+
+</div>
 
 
 
