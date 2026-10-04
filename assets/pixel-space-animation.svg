@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="286" viewBox="0 0 1100 286">
+<defs>
+<style>
+.bg{fill:#070b12}.px{shape-rendering:crispEdges}.green{fill:#16a34a}.bright{fill:#35ff73}.dark{fill:#0b6b35}.yellow{fill:#f5d21f}.blue{fill:#3b82f6}.star{fill:#d9e3ec}
+@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+@keyframes pulse{0%,100%{opacity:.72}50%{opacity:1}}
+@keyframes shot{0%{transform:translateY(-12px);opacity:0}12%{opacity:1}82%{opacity:1}100%{transform:translateY(205px);opacity:0}}
+@keyframes ship{0%,100%{transform:translateX(-5px)}50%{transform:translateX(32px)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+.alien{animation:drift 3s ease-in-out infinite}.a2{animation-delay:.25s}.a3{animation-delay:.5s}.a4{animation-delay:.75s}.a5{animation-delay:1s}
+.glow{animation:pulse 1.8s ease-in-out infinite}.shot{animation:shot 1.7s linear infinite}.shot2{animation:shot 1.7s .7s linear infinite}.ship{animation:ship 2.2s ease-in-out infinite}
+.s1{animation:twinkle 1.8s infinite}.s2{animation:twinkle 2.4s .4s infinite}.s3{animation:twinkle 2.1s .8s infinite}
+</style>
+</defs>
+<rect width="1100" height="286" rx="16" class="bg"/>
+<!-- stars -->
+<g class="px">
+<rect x="52" y="34" width="3" height="3" class="star s1"/><rect x="143" y="79" width="2" height="2" class="star s2"/>
+<rect x="226" y="29" width="3" height="3" class="star s3"/><rect x="318" y="92" width="2" height="2" class="star s1"/>
+<rect x="404" y="41" width="3" height="3" class="star s2"/><rect x="488" y="73" width="2" height="2" class="star s3"/>
+<rect x="572" y="31" width="3" height="3" class="star s1"/><rect x="653" y="86" width="2" height="2" class="star s2"/>
+<rect x="742" y="39" width="3" height="3" class="star s3"/><rect x="826" y="69" width="2" height="2" class="star s1"/>
+<rect x="918" y="31" width="3" height="3" class="star s2"/><rect x="1030" y="83" width="2" height="2" class="star s3"/>
+<rect x="82" y="168" width="2" height="2" class="star s2"/><rect x="271" y="181" width="3" height="3" class="star s1"/>
+<rect x="462" y="162" width="2" height="2" class="star s3"/><rect x="690" y="174" width="3" height="3" class="star s2"/>
+<rect x="895" y="158" width="2" height="2" class="star s1"/><rect x="1014" y="191" width="3" height="3" class="star s3"/>
+</g>
+<!-- pixel aliens -->
+<g class="alien px glow">
+<rect x="70" y="104" width="13" height="13" class="dark"/><rect x="70" y="120" width="13" height="13" class="green"/>
+<rect x="70" y="136" width="13" height="13" class="green"/><rect x="86" y="120" width="13" height="13" class="bright"/>
+<rect x="54" y="120" width="13" height="13" class="green"/>
+</g>
+<g class="alien a2 px glow">
+<rect x="226" y="91" width="13" height="13" class="bright"/><rect x="242" y="91" width="13" height="13" class="dark"/>
+<rect x="210" y="107" width="13" height="13" class="green"/><rect x="226" y="107" width="13" height="13" class="green"/><rect x="242" y="107" width="13" height="13" class="green"/>
+<rect x="258" y="107" width="13" height="13" class="bright"/><rect x="226" y="123" width="13" height="13" class="green"/><rect x="242" y="123" width="13" height="13" class="bright"/>
+<rect x="226" y="139" width="13" height="13" class="green"/><rect x="242" y="139" width="13" height="13" class="dark"/>
+</g>
+<g class="alien a3 px glow">
+<rect x="430" y="92" width="13" height="13" class="bright"/><rect x="446" y="92" width="13" height="13" class="green"/><rect x="462" y="92" width="13" height="13" class="dark"/>
+<rect x="430" y="108" width="13" height="13" class="green"/><rect x="446" y="108" width="13" height="13" class="bright"/><rect x="462" y="108" width="13" height="13" class="green"/>
+<rect x="478" y="108" width="13" height="13" class="green"/><rect x="414" y="124" width="13" height="13" class="dark"/><rect x="430" y="124" width="13" height="13" class="green"/><rect x="446" y="124" width="13" height="13" class="green"/><rect x="462" y="124" width="13" height="13" class="green"/>
+<rect x="478" y="124" width="13" height="13" class="dark"/><rect x="446" y="140" width="13" height="13" class="green"/>
+</g>
+<g class="alien a4 px glow">
+<rect x="657" y="111" width="13" height="13" class="dark"/><rect x="657" y="127" width="13" height="13" class="green"/>
+<rect x="673" y="127" width="13" height="13" class="bright"/><rect x="689" y="127" width="13" height="13" class="green"/>
+<rect x="657" y="143" width="13" height="13" class="green"/><rect x="689" y="143" width="13" height="13" class="dark"/>
+</g>
+<g class="alien a5 px glow">
+<rect x="865" y="91" width="13" height="13" class="green"/><rect x="881" y="91" width="13" height="13" class="dark"/><rect x="913" y="91" width="13" height="13" class="green"/>
+<rect x="865" y="107" width="13" height="13" class="green"/><rect x="897" y="107" width="13" height="13" class="bright"/><rect x="913" y="107" width="13" height="13" class="green"/><rect x="929" y="107" width="13" height="13" class="green"/>
+<rect x="865" y="123" width="13" height="13" class="green"/><rect x="881" y="123" width="13" height="13" class="dark"/>
+<rect x="897" y="139" width="13" height="13" class="green"/><rect x="913" y="139" width="13" height="13" class="green"/>
+<rect x="881" y="155" width="13" height="13" class="dark"/>
+</g>
+<!-- projectiles -->
+<g class="px yellow shot"><rect x="705" y="92" width="4" height="16"/><rect x="706" y="112" width="3" height="9"/></g>
+<g class="px yellow shot2"><rect x="712" y="93" width="4" height="16"/></g>
+<!-- player ship -->
+<g class="ship px blue">
+<rect x="700" y="245" width="8" height="8"/><rect x="708" y="237" width="8" height="16"/><rect x="716" y="245" width="8" height="8"/>
+<rect x="708" y="253" width="8" height="5" fill="#2563eb"/>
+</g>
+<text x="550" y="273" text-anchor="middle" fill="#28402f" font-family="monospace" font-size="10">DYNAMATIC01 // DATA ANALYTICS // 2026</text>
+</svg>
