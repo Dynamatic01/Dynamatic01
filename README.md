@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/dynamatic01-profile.svg" alt="Mohit Mehta - Animated Data Analytics GitHub Profile" width="100%"/>
+<img src="./assets/dynamatic01-profile.svg" alt="Mohit Kumar Mehta - Animated Data Analytics GitHub Profile" width="100%"/>
 
 
 
