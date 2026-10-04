@@ -2,7 +2,7 @@
 
 ## 06 / GITHUB ACTIVITY
 
-<img src="./assets/github-contribution-grid-snake.gif" alt="Animated GitHub contribution activity" width="100%"/>
+<img src="./assets/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution activity" width="100%"/>
 
 <sub>LIVE GITHUB CONTRIBUTIONS • UPDATED DAILY</sub>
 
