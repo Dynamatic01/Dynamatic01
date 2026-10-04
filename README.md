@@ -1,4 +1,10 @@
 <div align="center">
+<img src="./assets/pixel-space-animation.svg" alt="Animated pixel space scene" width="100%"/>
+</div>
+
+---
+
+<div align="center">
 
 <img src="./assets/dynamatic01-profile.svg" alt="Mohit Kumar Mehta - Animated Data Analytics GitHub Profile" width="100%"/>
 
