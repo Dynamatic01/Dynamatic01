@@ -1,0 +1,131 @@
+name: Update Contribution Visual
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 18 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build live contribution visual
+        shell: bash
+        run: |
+          python - <<'PY'
+          import datetime as dt, html, re, urllib.request
+          from pathlib import Path
+
+          user = "Dynamatic01"
+          url = f"https://github.com/users/{user}/contributions?to={dt.date.today().isoformat()}"
+          raw = urllib.request.urlopen(url, timeout=30).read().decode("utf-8")
+
+          days = re.findall(
+              r'<rect[^>]*data-date="([^"]+)"[^>]*data-count="(\d+)"[^>]*>',
+              raw
+          )
+          if not days:
+              days = re.findall(
+                  r'<rect[^>]*data-count="(\d+)"[^>]*data-date="([^"]+)"[^>]*>',
+                  raw
+              )
+              days = [(d,c) for c,d in days]
+
+          if not days:
+              raise SystemExit("Could not read GitHub contribution calendar")
+
+          parsed = [(dt.date.fromisoformat(d), int(c)) for d,c in days]
+          first = parsed[0][0]
+          first_sunday = first - dt.timedelta(days=(first.weekday()+1)%7)
+          total = sum(c for _,c in parsed)
+          max_count = max(c for _,c in parsed) or 1
+
+          def esc(x):
+              return html.escape(str(x), quote=True)
+
+          def level(c):
+              if c == 0: return "#101923"
+              r = c / max_count
+              if r < .25: return "#0b3b26"
+              if r < .50: return "#087a3b"
+              if r < .75: return "#12b957"
+              return "#20e56a"
+
+          cells=[]
+          latest=max(parsed, key=lambda x:x[0])[0]
+          for date,count in parsed:
+              delta=(date-first_sunday).days
+              col=delta//7
+              row=delta%7
+              x=64+col*18
+              y=94+row*18
+              fill=level(count)
+              cells.append(
+                  f'<rect x="{x}" y="{y}" width="13" height="13" rx="2" fill="{fill}" '
+                  f'data-date="{date}" data-count="{count}"><title>{date}: {count} contributions</title></rect>'
+              )
+
+          # month labels
+          months=[]
+          seen=set()
+          for date,_ in parsed:
+              key=(date.year,date.month)
+              if key in seen: continue
+              seen.add(key)
+              delta=(date-first_sunday).days
+              col=delta//7
+              months.append(f'<text x="{64+col*18}" y="78" class="month">{date.strftime("%b")}</text>')
+
+          width=max(1040,64+((parsed[-1][0]-first_sunday).days//7+1)*18+45)
+          svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="265" viewBox="0 0 {width} 265">
+          <defs>
+            <style>
+              .bg{{fill:#07100b}} .border{{fill:none;stroke:#18c95b;stroke-width:1.2}}
+              .title{{font:700 19px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#39ff78}}
+              .sub{{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#7ccf96}}
+              .metric{{font:700 25px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#f2fff6}}
+              .month{{font:10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#6e8e79}}
+              .label{{font:10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#66806e}}
+              @keyframes scan{{0%{{transform:translateX(0);opacity:0}}10%{{opacity:.45}}90%{{opacity:.45}}100%{{transform:translateX({width}px);opacity:0}}}}
+              @keyframes pulse{{0%,100%{{opacity:.25}}50%{{opacity:.8}}}}
+              .scan{{animation:scan 5s linear infinite}}
+              .live{{animation:pulse 2s ease-in-out infinite}}
+            </style>
+          </defs>
+          <rect x="8" y="8" width="{width-16}" height="249" rx="14" class="bg"/>
+          <rect x="8.5" y="8.5" width="{width-17}" height="248" rx="14" class="border"/>
+          <text x="32" y="38" class="title">CONTRIBUTION ACTIVITY</text>
+          <text x="{width-32}" y="38" text-anchor="end" class="sub">DYNAMATIC01 / GITHUB</text>
+          <line x1="32" y1="52" x2="{width-32}" y2="52" stroke="#123a21"/>
+          <text x="32" y="73" class="sub">LAST 12 MONTHS</text>
+          <text x="180" y="73" class="metric">{total}</text>
+          <text x="235" y="73" class="label">CONTRIBUTIONS</text>
+          <text x="{width-32}" y="73" text-anchor="end" class="label">SYNCED {dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}</text>
+          {''.join(months)}
+          {''.join(cells)}
+          <rect x="55" y="89" width="4" height="125" rx="2" fill="#39ff78" opacity=".12" class="scan"/>
+          <circle cx="{64+((latest-first_sunday).days//7)*18+6.5}" cy="{94+((latest-first_sunday).days%7)*18+6.5}" r="10" fill="none" stroke="#39ff78" class="live"/>
+          <text x="64" y="235" class="label">LESS</text>
+          <rect x="101" y="226" width="13" height="13" rx="2" fill="#101923"/>
+          <rect x="119" y="226" width="13" height="13" rx="2" fill="#0b3b26"/>
+          <rect x="137" y="226" width="13" height="13" rx="2" fill="#087a3b"/>
+          <rect x="155" y="226" width="13" height="13" rx="2" fill="#12b957"/>
+          <rect x="173" y="226" width="13" height="13" rx="2" fill="#20e56a"/>
+          <text x="193" y="235" class="label">MORE</text>
+          </svg>'''
+          Path("assets/contributions-live.svg").write_text(svg, encoding="utf-8")
+          PY
+
+      - name: Commit updated visual
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions-live.svg
+          git diff --cached --quiet || git commit -m "chore: update contribution visual"
+          git push
