@@ -95,17 +95,28 @@ Interactive grocery-sales dashboard covering KPIs, product categories, outlet pe
 
 ### Let's Connect
 
-If you're interested in **Data Analytics, Business Intelligence, collaboration, or internship opportunities**, feel free to reach out.
+<a href="https://www.linkedin.com/in/mohit-mehta-726179307/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://github.com/Dynamatic01" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Dynamatic01-181717?style=for-the-badge&logo=github&logoColor=white" alt="Visit GitHub"/>
+</a>
 
-**[LinkedIn — Connect with me](https://www.linkedin.com/in/mohit-mehta-726179307/)** &nbsp; • &nbsp; **[GitHub — @Dynamatic01](https://github.com/Dynamatic01)**
+<br><br>
 
 `DATA → INSIGHT → DECISION`
 
-*Turning complex data into clear business decisions.*
+**Turning complex data into clear business decisions.**
+
+<br>
+
+<sub>Open a link above to connect with me.</sub>
 
 </div>
 
 ---
+
 <div align="center">
 <img src="./assets/about-animated.svg" alt="Animated About section" width="100%"/>
 </div>
