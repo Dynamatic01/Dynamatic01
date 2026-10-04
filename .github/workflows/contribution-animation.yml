@@ -4,6 +4,7 @@ on:
   push:
     paths-ignore:
       - "assets/github-contribution-grid-snake.svg"
+      - "assets/github-contribution-grid-snake-dark.svg"
       - "assets/github-contribution-grid-snake.gif"
   schedule:
     - cron: "15 18 * * *"
@@ -19,22 +20,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate contribution animation
+      - name: Generate dark realistic contribution animation
         uses: Platane/snk@v3
         with:
           github_user_name: Dynamatic01
           outputs: |
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake.gif
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#d8dee9&color_dots=#0b1117,#123524,#0d6b3a,#19a463,#35d07f
+            assets/github-contribution-grid-snake.gif?color_snake=#d8dee9&color_dots=#0b1117,#123524,#0d6b3a,#19a463,#35d07f&color_background=#05080c
 
       - name: Commit animation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.gif
+          git add assets/github-contribution-grid-snake-dark.svg assets/github-contribution-grid-snake.gif
           if git diff --cached --quiet; then
             echo "No contribution changes."
           else
-            git commit -m "chore: update GitHub contribution animation"
+            git commit -m "chore: update dark contribution animation"
             git push
           fi
