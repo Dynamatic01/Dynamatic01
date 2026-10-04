@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
 <defs><style>
-.bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.card{fill:#040a06;stroke:#155d2c}.g{fill:#35ff73}.w{fill:#d9f6df}.d{fill:#6fa77f}.s{font:12px monospace}.m{font:16px monospace}.h{font:bold 23px monospace}
+.bg{fill:#050b07}.panel{fill:#07130b;stroke:#1cff62;stroke-width:1.5}.card{fill:#040a06;stroke:#155d2c}.g{fill:#35ff73}.w{fill:#d9f6df}.d{fill:#6fa77f}.s{font:15px monospace}.m{font:19px monospace}.h{font:bold 28px monospace}
 @keyframes scan{0%{transform:translateY(0);opacity:.04}50%{opacity:.55}100%{transform:translateY(430px);opacity:.04}}
 @keyframes float1{50%{transform:translateY(-3px)}}@keyframes float2{50%{transform:translateY(3px)}}@keyframes blink{50%{opacity:.1}}
 @keyframes bar1{from{width:80px}to{width:270px}}@keyframes bar2{from{width:45px}to{width:101px}}@keyframes bar3{from{width:40px}to{width:90px}}@keyframes bar4{from{width:30px}to{width:64px}}@keyframes bar5{from{width:15px}to{width:28px}}
