@@ -3,8 +3,8 @@ name: Update GitHub Contribution Animation
 on:
   push:
     paths-ignore:
-      - "assets/github-contribution-grid-snake.gif"
       - "assets/github-contribution-grid-snake.svg"
+      - "assets/github-contribution-grid-snake.gif"
   schedule:
     - cron: "15 18 * * *"
   workflow_dispatch:
@@ -16,30 +16,25 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate contribution animation
         uses: Platane/snk@v3
         with:
           github_user_name: Dynamatic01
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake.gif
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake.gif
 
-      - name: Publish animation
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: "dist"
-          message: "chore: update contribution animation"
-          default_author: github_actions
-
-      - name: Move generated files into assets
+      - name: Commit animation
         run: |
-          mkdir -p assets
-          cp dist/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.svg
-          cp dist/github-contribution-grid-snake.gif assets/github-contribution-grid-snake.gif
-
-      - name: Commit assets
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: "assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.gif"
-          message: "chore: publish contribution animation"
-          default_author: github_actions
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.gif
+          if git diff --cached --quiet; then
+            echo "No contribution changes."
+          else
+            git commit -m "chore: update GitHub contribution animation"
+            git push
+          fi
