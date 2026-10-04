@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/pixel-space-animation.svg" alt="Animated pixel space scene" width="100%"/>
+<img src="./assets/contributions-live.svg" alt="Live GitHub Contribution Activity" width="100%"/>
 </div>
 
 ---
