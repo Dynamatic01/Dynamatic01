@@ -18,7 +18,7 @@
 <text x="1040" y="72" text-anchor="end" class="label g">&gt; about.scan</text>
 <line x1="55" y1="91" x2="1045" y2="91" stroke="#155d2c" stroke-width="2"/>
 
-<text x="58" y="130" class="s w">Hi, I'm <tspan class="g" font-weight="bold">Mohit Mehta</tspan>, a Computer Science Engineering student</text>
+<text x="58" y="130" class="s w">Hi, I'm <tspan class="g" font-weight="bold">Mohit Kumar Mehta</tspan>, a Computer Science Engineering student</text>
 <text x="58" y="158" class="s w">focused on <tspan class="g" font-weight="bold">Data Analytics and Business Intelligence.</tspan></text>
 
 <text x="58" y="201" class="s d">I work with data from collection and cleaning through SQL analysis,</text>
