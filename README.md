@@ -2,9 +2,9 @@
 
 ## 06 / GITHUB ACTIVITY
 
-<img src="https://ghchart.rshah.org/16a34a/Dynamatic01" alt="Dynamatic01 GitHub contribution activity" width="100%"/>
+<img src="https://raw.githubusercontent.com/Dynamatic01/Dynamatic01/main/assets/github-contribution-grid-snake.gif" alt="Animated GitHub contribution activity" width="100%"/>
 
-<sub>LIVE CONTRIBUTION DATA • DYNAMATIC01 • AUTO-REFRESHED FROM GITHUB ACTIVITY</sub>
+<sub>LIVE GITHUB CONTRIBUTIONS • UPDATED DAILY</sub>
 
 </div>
 
