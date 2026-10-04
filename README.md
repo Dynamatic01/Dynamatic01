@@ -6,7 +6,7 @@
 
 </div>
 
-
+---
 
 <!-- PROJECTS + LANGUAGE STACK -->
 <div align="center">
