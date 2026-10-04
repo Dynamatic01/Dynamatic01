@@ -23,56 +23,52 @@
 <g class="c2"><rect x="570" y="126" width="475" height="105" rx="10" class="card"/><circle cx="591" cy="147" r="4" class="g"/><text x="606" y="151" class="s g">Blinkit_sales_data_analysis</text><text x="587" y="178" class="m g">Blinkit_sales_data_analysis</text><text x="587" y="199" class="s d">Power BI • SQL • Sales Analytics</text><text x="587" y="219" class="s g">★ 1</text></g>
 
 <!-- PROJECT TIMELINE -->
-<rect x="28" y="270" width="1044" height="420" rx="10" class="panel"/>
+<rect x="28" y="270" width="1044" height="560" rx="10" class="panel"/>
 <text x="58" y="302" class="h g">PROJECT LAUNCH SEQUENCE</text>
 <text x="1038" y="302" text-anchor="end" class="s g">&gt; timeline.trace</text>
 <text x="58" y="328" class="s w">Where the work went next</text>
 <line x1="55" y1="341" x2="1045" y2="341" stroke="#155d2c"/>
 
 <!-- row 1 -->
-<line x1="120" y1="390" x2="980" y2="390" stroke="#24412e" stroke-width="2"/>
-<line x1="120" y1="390" x2="980" y2="390" stroke="#5476c9" stroke-width="2" stroke-dasharray="7 7">
-<animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2s" repeatCount="indefinite"/>
-</line>
-<g><circle cx="210" cy="390" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="210" cy="390" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" repeatCount="indefinite"/></circle>
-<text x="210" y="396" text-anchor="middle" class="s w">01</text><text x="210" y="365" text-anchor="middle" class="s d">15 / Apr 2026</text><text x="210" y="425" text-anchor="middle" class="m g">NewsGaurd</text><text x="210" y="444" text-anchor="middle" class="s d">Fake News Detection</text></g>
-<g><circle cx="790" cy="390" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="790" cy="390" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin=".5s" repeatCount="indefinite"/></circle>
-<text x="790" y="396" text-anchor="middle" class="s w">02</text><text x="790" y="365" text-anchor="middle" class="s d">08 / Jul 2026</text><text x="790" y="425" text-anchor="middle" class="m g">Blinkit_sales_data_analysis</text><text x="790" y="444" text-anchor="middle" class="s d">Sales Analytics • Power BI</text></g>
+<line x1="120" y1="395" x2="980" y2="395" stroke="#24412e" stroke-width="2"/>
+<line x1="120" y1="395" x2="980" y2="395" stroke="#5476c9" stroke-width="2" stroke-dasharray="7 7"><animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2s" repeatCount="indefinite"/></line>
+<g><circle cx="210" cy="395" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="210" cy="395" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" repeatCount="indefinite"/></circle>
+<text x="210" y="401" text-anchor="middle" class="s w">01</text><text x="210" y="365" text-anchor="middle" class="s d">08 / Jul 2026</text><text x="210" y="430" text-anchor="middle" class="m g">Blinkit_sales_data_analysis</text><text x="210" y="449" text-anchor="middle" class="s d">Sales Analytics • Power BI</text></g>
+<g><circle cx="790" cy="395" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="790" cy="395" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin=".5s" repeatCount="indefinite"/></circle>
+<text x="790" y="401" text-anchor="middle" class="s w">02</text><text x="790" y="365" text-anchor="middle" class="s d">12 / Jul 2026</text><text x="790" y="430" text-anchor="middle" class="m g">indian_tech_jobs_2026</text><text x="790" y="449" text-anchor="middle" class="s d">Tech Jobs • Data Analytics</text></g>
 
 <!-- row 2 -->
 <line x1="120" y1="505" x2="980" y2="505" stroke="#24412e" stroke-width="2"/>
 <line x1="120" y1="505" x2="980" y2="505" stroke="#5476c9" stroke-width="2" stroke-dasharray="7 7"><animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.2s" repeatCount="indefinite"/></line>
 <g><circle cx="210" cy="505" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="210" cy="505" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin=".8s" repeatCount="indefinite"/></circle>
-<text x="210" y="511" text-anchor="middle" class="s w">03</text><text x="210" y="480" text-anchor="middle" class="s d">12 / Jul 2026</text><text x="210" y="540" text-anchor="middle" class="m g">indian_tech_jobs_2026</text><text x="210" y="559" text-anchor="middle" class="s d">Tech Jobs • Data Analytics</text></g>
+<text x="210" y="511" text-anchor="middle" class="s w">03</text><text x="210" y="475" text-anchor="middle" class="s d">24 / Jul 2026</text><text x="210" y="540" text-anchor="middle" class="m g">FIFA_WORLD_CUP_2026_Analysis</text><text x="210" y="559" text-anchor="middle" class="s d">Sports Data Analysis</text></g>
 <g><circle cx="790" cy="505" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="790" cy="505" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
-<text x="790" y="511" text-anchor="middle" class="s w">04</text><text x="790" y="480" text-anchor="middle" class="s d">24 / Jul 2026</text><text x="790" y="540" text-anchor="middle" class="m g">FIFA_WORLD_CUP_2026_Analysis</text><text x="790" y="559" text-anchor="middle" class="s d">Sports Data Analysis</text></g>
+<text x="790" y="511" text-anchor="middle" class="s w">04</text><text x="790" y="475" text-anchor="middle" class="s d">10 / Aug 2026</text><text x="790" y="540" text-anchor="middle" class="m g">Bank_loan_Analysis</text><text x="790" y="559" text-anchor="middle" class="s d">Loan &amp; Risk Analytics</text></g>
 
 <!-- row 3 -->
-<line x1="120" y1="620" x2="980" y2="620" stroke="#24412e" stroke-width="2"/>
-<line x1="120" y1="620" x2="980" y2="620" stroke="#5476c9" stroke-width="2" stroke-dasharray="7 7"><animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.4s" repeatCount="indefinite"/></line>
-<g><circle cx="210" cy="620" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="210" cy="620" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="1.4s" repeatCount="indefinite"/></circle>
-<text x="210" y="626" text-anchor="middle" class="s w">05</text><text x="210" y="595" text-anchor="middle" class="s d">10 / Aug 2026</text><text x="210" y="655" text-anchor="middle" class="m g">Bank_loan_Analysis</text><text x="210" y="674" text-anchor="middle" class="s d">Loan &amp; Risk Analytics</text></g>
-<g><circle cx="790" cy="620" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="790" cy="620" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="1.8s" repeatCount="indefinite"/></circle>
-<text x="790" y="626" text-anchor="middle" class="s w">06</text><text x="790" y="595" text-anchor="middle" class="s d">11 / Sep 2026</text><text x="790" y="655" text-anchor="middle" class="m g">India Urban Air Quality</text><text x="790" y="674" text-anchor="middle" class="s d">Environmental Analytics</text></g>
+<line x1="120" y1="615" x2="980" y2="615" stroke="#24412e" stroke-width="2"/>
+<line x1="120" y1="615" x2="980" y2="615" stroke="#5476c9" stroke-width="2" stroke-dasharray="7 7"><animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.4s" repeatCount="indefinite"/></line>
+<g><circle cx="210" cy="615" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="210" cy="615" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="1.4s" repeatCount="indefinite"/></circle>
+<text x="210" y="621" text-anchor="middle" class="s w">05</text><text x="210" y="585" text-anchor="middle" class="s d">11 / Sep 2026</text><text x="210" y="650" text-anchor="middle" class="m g">India Urban Air Quality</text><text x="210" y="669" text-anchor="middle" class="s d">Environmental Analytics</text></g>
+<g><circle cx="790" cy="615" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="790" cy="615" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="1.8s" repeatCount="indefinite"/></circle>
+<text x="790" y="621" text-anchor="middle" class="s w">06</text><text x="790" y="585" text-anchor="middle" class="s d">26 / Sep 2026</text><text x="790" y="650" text-anchor="middle" class="m g">data_analysis_python</text><text x="790" y="669" text-anchor="middle" class="s d">Python Data Analysis</text></g>
 
 <!-- row 4 -->
-<line x1="120" y1="735" x2="980" y2="735" stroke="#24412e" stroke-width="2"/>
-<g><circle cx="210" cy="735" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="210" cy="735" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="2s" repeatCount="indefinite"/></circle>
-<text x="210" y="741" text-anchor="middle" class="s w">07</text><text x="210" y="710" text-anchor="middle" class="s d">26 / Sep 2026</text><text x="210" y="770" text-anchor="middle" class="m g">data_analysis_python</text><text x="210" y="789" text-anchor="middle" class="s d">Python Data Analysis</text></g>
-<g><circle cx="790" cy="735" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="790" cy="735" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="2.4s" repeatCount="indefinite"/></circle>
-<text x="790" y="741" text-anchor="middle" class="s w">08</text><text x="790" y="710" text-anchor="middle" class="s d">03 / Oct 2026</text><text x="790" y="770" text-anchor="middle" class="m g">coding-solutions</text><text x="790" y="789" text-anchor="middle" class="s d">SQL • Coding Practice</text></g>
+<line x1="120" y1="725" x2="980" y2="725" stroke="#24412e" stroke-width="2"/>
+<g><circle cx="500" cy="725" r="18" fill="#162846" stroke="#6689e6" stroke-width="2"/><circle cx="500" cy="725" r="27" fill="none" stroke="#5476c9"><animate attributeName="r" values="23;31;23" dur="2s" begin="2.2s" repeatCount="indefinite"/></circle>
+<text x="500" y="731" text-anchor="middle" class="s w">07</text><text x="500" y="695" text-anchor="middle" class="s d">03 / Oct 2026</text><text x="500" y="760" text-anchor="middle" class="m g">coding-solutions</text><text x="500" y="779" text-anchor="middle" class="s d">SQL • Coding Practice</text></g>
 
-<text x="58" y="820" class="s d">8 featured repositories • ordered by verified latest commit date.</text>
+<text x="58" y="810" class="s d">7 featured repositories • ordered by verified latest commit date.</text>
 <!-- LANGUAGE STACK -->
-<rect x="28" y="840" width="1044" height="230" rx="10" class="panel"/>
-<text x="58" y="874" class="h g">Language Stack</text><text x="58" y="895" class="s g">Repository-weighted technologies</text><text x="1038" y="895" text-anchor="end" class="s g">&gt; stack.scan</text>
+<rect x="28" y="850" width="1044" height="270" rx="10" class="panel"/>
+<text x="58" y="884" class="h g">Language Stack</text><text x="58" y="905" class="s g">Repository-weighted technologies</text><text x="1038" y="895" text-anchor="end" class="s g">&gt; stack.scan</text>
 <line x1="55" y1="338" x2="1045" y2="338" stroke="#155d2c"/>
 
-<circle cx="76" cy="934" r="5" fill="#e34c26"/><text x="94" y="938" class="s w">HTML</text><text x="300" y="938" class="s" fill="#e34c26">51%</text><rect x="330" y="926" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="926" width="80" height="11" rx="5" fill="#e34c26" class="b1"/>
-<circle cx="76" cy="963" r="5" fill="#f37626"/><text x="94" y="967" class="s w">Jupyter Notebook</text><text x="300" y="967" class="s" fill="#f37626">19%</text><rect x="330" y="955" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="955" width="45" height="11" rx="5" fill="#f37626" class="b2"/>
-<circle cx="76" cy="992" r="5" fill="#f1e05a"/><text x="94" y="996" class="s w">JavaScript</text><text x="300" y="996" class="s" fill="#f1e05a">17%</text><rect x="330" y="984" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="984" width="40" height="11" rx="5" fill="#f1e05a" class="b3"/>
-<circle cx="76" cy="1021" r="5" fill="#3572A5"/><text x="94" y="1025" class="s w">Python</text><text x="300" y="1025" class="s" fill="#3572A5">12%</text><rect x="330" y="1013" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="1013" width="30" height="11" rx="5" fill="#3572A5" class="b4"/>
-<circle cx="76" cy="1050" r="5" fill="#89569c"/><text x="94" y="1054" class="s w">CSS</text><text x="300" y="1054" class="s" fill="#89569c">4%</text><rect x="330" y="1042" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="1042" width="15" height="11" rx="5" fill="#89569c" class="b5"/>
+<circle cx="76" cy="945" r="5" fill="#e34c26"/><text x="94" y="949" class="s w">HTML</text><text x="300" y="949" class="s" fill="#e34c26">51%</text><rect x="330" y="937" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="937" width="80" height="11" rx="5" fill="#e34c26" class="b1"/>
+<circle cx="76" cy="980" r="5" fill="#f37626"/><text x="94" y="1007" class="s w">Jupyter Notebook</text><text x="300" y="1007" class="s" fill="#f37626">19%</text><rect x="330" y="972" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="972" width="45" height="11" rx="5" fill="#f37626" class="b2"/>
+<circle cx="76" cy="1015" r="5" fill="#f1e05a"/><text x="94" y="1019" class="s w">JavaScript</text><text x="300" y="1019" class="s" fill="#f1e05a">17%</text><rect x="330" y="1007" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="1007" width="40" height="11" rx="5" fill="#f1e05a" class="b3"/>
+<circle cx="76" cy="1085" r="5" fill="#3572A5"/><text x="94" y="1089" class="s w">Python</text><text x="300" y="1089" class="s" fill="#3572A5">12%</text><rect x="330" y="1077" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="1077" width="30" height="11" rx="5" fill="#3572A5" class="b4"/>
+<circle cx="76" cy="1085" r="5" fill="#89569c"/><text x="94" y="1089" class="s w">CSS</text><text x="300" y="1089" class="s" fill="#89569c">4%</text><rect x="330" y="1077" width="470" height="11" rx="5" fill="#173022"/><rect x="330" y="1077" width="15" height="11" rx="5" fill="#89569c" class="b5"/>
 
-<rect x="35" y="80" width="1030" height="2" fill="#35ff73" class="scan"/><text x="1038" y="1135" text-anchor="end" class="s d">DYNAMATIC01 // 2026</text>
+<rect x="35" y="80" width="1030" height="2" fill="#35ff73" class="scan"/><text x="1038" y="1145" text-anchor="end" class="s d">DYNAMATIC01 // 2026</text>
 </svg>
